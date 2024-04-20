@@ -1,0 +1,16 @@
+server:
+  port: 7070
+
+spring:
+  datasource:
+    url: jdbc:mysql://bbmsdry8ak3eivl4hoga-mysql.services.clever-cloud.com/bbmsdry8ak3eivl4hoga
+    username: uaviqy0ykoliuv4y
+    password: rUz6gqTbOjvznNboXtQF
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect # Usa el dialecto apropiado según la versión de MySQL.
+    hibernate:
+      ddl-auto: update # Cómo manejar la actualización de tablas en la base de datos.
+    open-in-view: false # Considera desactivar esto para mejor rendimiento y consistencia.
